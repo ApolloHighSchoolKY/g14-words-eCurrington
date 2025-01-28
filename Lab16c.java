@@ -15,14 +15,12 @@ public class Lab16c
 		System.out.println("word with 3 chars = "+test.countWordsWithXChars(3));
 		System.out.println("word with 4 chars = "+test.countWordsWithXChars(4));
 		System.out.println("word with 5 chars = "+test.countWordsWithXChars(5));
-
+		test.setWords("how many alligators");
 		int vowelsRemoved = test.removeWordsWithXChars(3);
 		System.out.println("\nafter removing words with 3 chars \n" + test);
 		System.out.println("\nnumber of vowels in the words removed == " + vowelsRemoved);
 		System.out.println("\n\n");
 
-
-		//more test cases
 
 	}
 }
